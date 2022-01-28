@@ -9,6 +9,8 @@
   margin: 0;
 }
 body {
+  background:url(wood.jpg)  #504643;
+  text-align: center;
   margin: 0;
   padding: 40px;
 }
@@ -19,7 +21,17 @@ body {
   margin: 0 auto;
   padding: 20px;
 }
-
+.globalNav {
+  width: 100%;
+  margin-top: 20px;
+  background: #fff;
+}
+.globalNav ul {
+  padding: 10px 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
 /*----------------------------
 header
 ----------------------------*/
@@ -34,6 +46,13 @@ a {
 }
 a:hover { background: #e4e3d6; }
 
+ul {
+
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex: 1 1 20px;
+}
 /*----------------------------
 main
 ----------------------------*/

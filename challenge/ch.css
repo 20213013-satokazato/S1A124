@@ -1,1 +1,86 @@
- 
+@charset "utf-8";
+
+* {
+    box-sizing: border-box;
+    font-family: メイリオ;
+    margin: 0px;
+}
+body {
+    background: #f8d8bf;
+    margin: 0px;
+    padding: 0px;
+}
+article {
+    background: #fff;
+    width: 850px;
+    margin: 20px;
+    padding: 20px;
+    position: relative;
+}
+header {
+    background: #f83;
+    color: #fff;
+    padding-left: 10px;
+    position: absolute;
+    top: 40px;
+    left: 0;
+}
+section {
+    background: #fff;
+    border: solid;
+    border-color: darkgrey;
+    border-width: 1px;
+    padding-bottom: 20px;
+}
+img {
+    display: block;
+    width: 850px;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+h2 {
+    color: #f83;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+ul,ol {
+    color: black; 
+    padding-top: 20px;
+    padding-right: 40px;
+}
+address {
+    text-align: center;
+}
+.moji {
+    margin-left: 20px;
+}
+.waku {
+    margin-left: auto;
+    margin-right: auto;
+}
+.flexCountiner {
+    display: flex;
+    padding: 2.5%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.btnArea {
+    margin: 40px;
+}
+p.btn {
+    width: 300px;
+    text-align: center;
+    margin: 0 32% 40px
+    
+}
+p.btn a {
+    display: block;
+    padding: 20px;
+    background: coral;
+    color: #fff;
+    text-decoration-line: none;
+    border-radius: 8px;
+    font-size: 1.2em;
+}
