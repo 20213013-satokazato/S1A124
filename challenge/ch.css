@@ -11,10 +11,11 @@ body {
     padding: 0px;
 }
 article {
-    background: #fff;
-    width: 850px;
-    margin: 20px;
+    width: 800px;
+    max-width: 90%;
+    margin: 20px auto;
     padding: 20px;
+    background: #fff;
     position: relative;
 }
 header {
@@ -30,49 +31,37 @@ section {
     border: solid;
     border-color: darkgrey;
     border-width: 1px;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 img {
     display: block;
     width: 850px;
     max-width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 h2 {
     color: #f83;
-    padding-left: 20px;
-    padding-top: 20px;
+    margin: 10px;
 }
 ul,ol {
     color: black; 
-    padding-top: 20px;
-    padding-right: 40px;
+    height: auto;
 }
 address {
     text-align: center;
 }
-.moji {
-    margin-left: 20px;
-}
-.waku {
-    margin-left: auto;
-    margin-right: auto;
-}
 .flexCountiner {
     display: flex;
-    padding: 2.5%;
-    flex-direction: row;
-    flex-wrap: wrap;
     justify-content: space-around;
 
 }
 .btnArea {
-    margin: 40px;
+    margin-top: 40px;
 }
 p.btn {
     width: 300px;
     text-align: center;
-    margin: 0 32% 40px
+    margin: 0 auto 40px
     
 }
 p.btn a {
