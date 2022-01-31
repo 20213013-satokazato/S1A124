@@ -30,7 +30,7 @@ dt{
 }
 dd {
     flex: 2 1 30px;
-    margin-right: 0;
+    margin-left: 0;
 }
 input[type="text"], textarea{ 
     border: 1px solid #999;
