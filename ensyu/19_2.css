@@ -42,7 +42,7 @@ a {
 /* flexboxを使った指定：各アイテムに指定した場合 */
 .container4{
   display: flex;
-  justify-self: center;
+  justify-content: center;
 }
 .container4 .item1 {flex: 0 1 200px;}
 .container4 .item2 {flex: 0 2 200px;}
